@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a Reproduzir áudios no HTML5.</p>
+    <audio src="flow.mp3" controls ></audio><!-- Eu clico para começar, mas também posso adicionar autoplay para começar a tocar sozinho-->
+
+    <audio preload="metadata" autoplay loop > <!-- toca soiznho no chat e quando acaba recomeça-->
+        <source src="flow.mp3" type="audio/mpeg">
+        <source src="flow.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegadornão suporta áudio.</p>
+        
+    </audio>
+<p>Você pode baixar o áudiio  <a href="flow.mp3" download="mp3">clickando aqui</a> </p>
+</body>
+</html>

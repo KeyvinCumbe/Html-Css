@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Méddas e HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir osite em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="../EX011/Imagens/pequeno.png" type="image/png"> <!--máximo 750, qnd chega 750 ele muda -->
+        <source media="(max-width: 1050px )" srcset="../EX011/Imagens/medio.png" type="image/png">
+        <img src="../EX011/Imagens/grande.png" alt="flexible-image">
+        <!--a base é a imagem padrão e as outras ficam por cima.. cuidado para não inverter-->
+    </picture>
+
+</body>
+</html>
